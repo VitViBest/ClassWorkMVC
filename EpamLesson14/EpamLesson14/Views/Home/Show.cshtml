@@ -1,0 +1,18 @@
+﻿@model EpamLesson14.Models.ShowVM
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<div>
+    <h4>Проекты</h4>
+    <hr />
+    <div class="dl-horizontal">
+        @foreach(var i in Model.Projects)
+        {
+            <div class="project-review">
+                <a href="@Url.Action("Details",new {id=i.Key })" class="btn btn-outline-success" >@i.Value</a>
+            </div>
+        }
+    </div>
+</div>

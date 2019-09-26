@@ -1,0 +1,32 @@
+﻿@model EpamLesson14.Models.SuccessVM
+
+@{
+    ViewBag.Title = "Success";
+}
+
+<h2>Репорт: </h2>
+
+<div>
+    <dl class="dl-horizontal">
+
+        <dt>
+            Состав команды:
+        </dt>
+
+        <dd>
+                @foreach (var i in Model.Employees)
+                {
+                    <p>@i.Employee.Name</p>
+                }
+        </dd>
+
+        <dt>
+           Дата завершения: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.End)
+        </dd>
+
+    </dl>
+</div>

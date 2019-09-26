@@ -1,0 +1,28 @@
+﻿@model EpamLesson14.Models.EmployeesVM
+
+@{
+    ViewBag.Title = "Employees";
+}
+
+<div>
+    <dl class="dl-horizontal">
+        @foreach(var i in Model.Employees)
+        {
+            <dt>@i.Name</dt>
+            <dd>
+                @if (i.EmployeeTimes == null || i.EmployeeTimes.Count == 0)
+                {
+                    <p>Не задействован</p>
+                }
+                else
+                {
+                    <p><i>Проекты:</i></p>
+                    foreach(var j in i.EmployeeTimes)
+                    {
+                        <p>@j.ProjectTeam.Project.Name до @j.DateLeave.ToShortDateString()</p>
+                    }
+                }
+            </dd>
+        }
+    </dl>
+</div>

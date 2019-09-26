@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\WebAPP.DAL.dll.config
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\WebAPP.DAL.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\WebAPP.DAL.pdb
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\obj\Debug\WebAPP.DAL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\obj\Debug\WebAPP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\obj\Debug\WebAPP.DAL.csproj.CopyComplete
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\obj\Debug\WebAPP.DAL.dll
+C:\Users\User\source\repos\EpamLesson14\WebAPP.DAL\obj\Debug\WebAPP.DAL.pdb

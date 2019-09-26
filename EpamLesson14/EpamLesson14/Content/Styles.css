@@ -1,0 +1,70 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 !important;
+}
+
+header {
+    margin-right: 0 !important;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(206, 198, 198, 0.90);
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.site-name {
+    display: inline-block;
+    text-align: center;
+}
+
+
+article {
+    box-sizing: padding-box !important;
+    margin: auto !important;
+    min-height: 400px !important;
+}
+
+footer > h4 {
+    text-align: center;
+}
+
+footer {
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(206, 198, 198, 0.90) !important;
+}
+
+aside {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    height: 400px;
+    padding-left: 30px;
+}
+
+main {
+    box-sizing: border-box;
+    background-color: azure;
+    min-height: 400px !important;
+}
+
+#my-nav > li {
+    display: block !important;
+    width: 80% !important;
+    margin: auto !important;
+}
+
+.project-review{
+    margin:10px;
+}

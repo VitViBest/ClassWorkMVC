@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Styles.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header class="container-fluid  row">
+        <div class="col-md-5 col-sm-5 text-center">
+            <img class="logo" src="@Url.Content("~/Capture.GIF")" />
+        </div>
+        <div class="col-md-offset-1 col-sm-offset-1 col-md-5 col-sm-5 text-left">
+            <h2 class="text-center site-name">Epam</h2>
+        </div>
+
+    </header>
+
+    <article class=" body-content  container  row">
+        <aside class=" col-md-3 col-sm-3">
+            <ul id="my-nav" class="nav navbar-nav">
+                <li>@Html.ActionLink("Домашняя страница", "Index", "Home")</li>
+                <li>@Html.ActionLink("Проекты", "Show", "Home")</li>
+                <li>@Html.ActionLink("Сотрудники", "Employees", "Home")</li>
+            </ul>
+        </aside>
+        <main class="col-md-9 col-sm-9">
+            @RenderBody()
+        </main>
+    </article>
+    <footer class="container-fluid panel-footer">
+        <h4>Copyright @System.DateTime.Now.Year Vitaliy Slyva </h4>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
